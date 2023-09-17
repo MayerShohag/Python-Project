@@ -7,14 +7,14 @@ sixth = float(input("Enter 6th Semester Result : "))
 seventh = float(input("Enter 7th Semester Result : "))
 eighth = float(input("Enter 8th Semester Result : "))
 
-a = float((first*5)/100)
-b = float((second*5)/100)
-c = float((third*10)/100)
-d = float((forth*10)/100)
-e = float((fifth*20)/100)
-f = float((sixth*20)/100)
-g = float((seventh*20)/100)
-h = float((eighth*10)/100)
+a = float((first*5)/100) # semester %
+b = float((second*5)/100) # semester %
+c = float((third*10)/100) # semester %
+d = float((forth*10)/100) # semester %
+e = float((fifth*20)/100) # semester %
+f = float((sixth*20)/100) # semester %
+g = float((seventh*20)/100) # semester %
+h = float((eighth*10)/100) # semester %
 
-x = (a+b+c+d+e+f+g+h)
+x = (a+b+c+d+e+f+g+h) # average semester
 print("CGPA is : %.2f" % x)
